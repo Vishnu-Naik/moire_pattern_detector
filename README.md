@@ -11,8 +11,8 @@ The code has been tested with the following dependencies:
 - Scikit-learn
 - Scikit-image
 
-## Data Preprocessing
-The first step in the moire pattern detection process is data preprocessing. This involves extracting various features from the input images that can be used to classify the images as containing a moire pattern or not. The code in this repository implements multiple feature extraction techniques, including:
+## Feature Engineering
+The first step in the moire pattern detection process is data preprocessing. Extracting features is very important becuase the image data alone is not enough to make effective classification. Therefore, the many features are extracted out of image data. The code in this repository implements multiple feature extraction techniques, including:
 
 - Color Histogram
 - Distance Histogram
